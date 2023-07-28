@@ -20,6 +20,9 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color:#FCCF00;
+    background-image: url(/Photo/bricks-5622183_1280.png);
+    border: black 3px solid;
+    border-style: outset;
 }
 .nav-parent ,li, a {
     display: flex;
@@ -33,7 +36,7 @@ header{
     color:black;
 
 }
-.nav-parent ,li, a:hover{
+.nav-parent, a:hover{
     transition: all .3s ease;
     cursor: pointer;
     color: #E62310;
@@ -95,9 +98,27 @@ h2{
 .brick{
     height: 300px;
     width: auto;
-    border:#FCCF00 2px solid;
-    margin: 0;
-    padding: 0;
+
+}
+.brick-div{
+    display: flex;
+    justify-content: right;
+    padding-top: 25px;
+    padding-right:45px
+}
+.facts-ul{ 
+display: flex;
+width: 75%;
+height: 300px;
+font-size: larger;
+position: relative;
+top:-300px;
+padding-left: 10px;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:underline
 }
 
 
