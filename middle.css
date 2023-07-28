@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin:0;
     padding:0;
@@ -6,15 +7,98 @@
 }
 /* starting nav-bar*/
 
-.nav-parent{
- gap:4em;
- padding-right:20px;
+body{
+    background-color:#E62310
 }
 .nav-img{
-    width: 100px;
+    width: 125px;
     height: auto;
+    margin: 0;
 }
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#FCCF00;
+}
+.nav-parent ,li, a {
+    display: flex;
+    gap:4em;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease;
+    font-family: roboto: sans-serif:;
+    font-size:20px;
+    color:black;
 
-.nav-child:hover{
+}
+.nav-parent ,li, a:hover{
+    transition: all .3s ease;
+    cursor: pointer;
+    color: #E62310;
+}
+button{
+    font-size: 20px;
+    background-color: transparent;
+border-color: #E62310;
+border-width: 7px;
+border-radius: 16px;
+height:40px;
+width: 80px;
+font-family: Roboto: sans-serif:;
+}
+button:hover{
+    transition: all .3s ease;
+    border-color: #f64f3f;
     cursor: pointer;
 }
+
+.one{
+display: flex;
+justify-content: center;
+gap: 3em;
+
+
+}
+h1{
+    font-size: 70px;
+    font-weight:;
+    text-align: center;
+    text-decoration:underline;
+    font-family: roboto, sans-serif;
+}
+.plant{
+    height: 400px;
+    width: auto;
+}
+.one-p{
+    font-size: larger;
+    width: 25%;
+    height: auto;
+}
+.nes{
+    height:200px;
+    width: auto;
+}
+.div-nes{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    background-color: aqua;
+    background-image: url(/Photo/earth-1756274_1280\ \(1\).jpg);
+    color: antiquewhite;
+}
+.brick{
+    height: 300px;
+    width: auto;
+    border:#FCCF00 2px solid;
+    margin: 0;
+    padding: 0;
+}
+
+
+
